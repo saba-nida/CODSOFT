@@ -1,0 +1,118 @@
+/* font-family: 'Dancing Script', cursive; */
+.fa-twitter{
+    color: aqua;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.class1{
+    margin:0px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background:#222f3e;
+    /* background: rgb(207, 159, 248); */
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+
+.class1 i{
+    margin:0 5px;
+}
+
+.class1 a{
+    text-decoration: none;
+    color:white;
+    padding:5px 10px;
+    background-color:rgb(207, 159, 248);
+}
+
+.class1 a:hover{
+    color:aqua;
+    
+}
+
+.class2{
+    width:100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    color:black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.menu a:hover{
+    color:rgb(207, 159, 248);
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding:10px 20px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(wallpaper.jpg);
+    background-size: 100% 100%;
+}
+
+.htext{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+
+}
+.htext h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive; 
+}
+
+.htext p{
+    font-size: 20px;
+    margin:40px 0px ;
+    line-height: 30px;
+}
+
+.htext a{
+    text-decoration: none;
+    color: white;
+    background:rgb(207, 159, 248);
+    padding: 10px 20px;
+    margin:0 15px;
+    letter-spacing: 5px;
+}
+
+.htext a:hover{
+    color:aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
